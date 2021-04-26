@@ -1,5 +1,10 @@
 #include "net.h"
 
+#include <Rmath.h>
+
+#include <network.h>
+#include <netregistration.h>
+
 SEXP rnbernexp_C(SEXP g, SEXP ep, SEXP oh, SEXP th)
   /*
    C-Language code for a simple random dynamic network generator.  Arguments are
